@@ -31,7 +31,7 @@ Options:
   --perturbation_method TEXT                    (type of perturbation, one of: 'binomial', 'fix')
   --_noise_prob FLOAT                           (when perturbation method is 'binomial', this is the probability of being perturbed)
   --_noise_count INTEGER                        (when perturbation method is 'fix', these are the mount of perturbed columns)
-  --n_layers INTEGER                            (amount of hidden leayers in the EBM)
+  --n_layers INTEGER                            (amount of hidden layers in the EBM)
   --layer_width INTEGER                         (width of the hidden layers)
   --data_location TEXT                          (location of the data; default values provided in data_module.py)
   --load_synth BOOLEAN                          (when a synth dataset is generated, it is also saved locally, this avoids regeneration)
